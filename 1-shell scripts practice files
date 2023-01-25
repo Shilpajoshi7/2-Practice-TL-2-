@@ -1,3 +1,4 @@
+____________________________________________________________________________________________________
 #!/bin/bash
 PS3="please select os? "
 select os in linux windows mac
@@ -21,4 +22,11 @@ do
         *)
             echo "Invalid"
     esac
+done
+
+______________________________________________________________________________________________________
+#!/bin/bash
+while [[ $answer != "yes" ]]
+do
+    read -p "please enter yes " answer
 done
